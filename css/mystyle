@@ -1,0 +1,116 @@
+.navbar {
+	border-color: black;
+	background-color: grey;
+	color: black;
+}
+
+.navbar-brand h1 {	
+	color: black;
+    margin-top: -2px;
+}
+
+#collapsable-nav {
+	border: 2px solid #111;
+}
+
+.divider {
+	height: 1px;	
+	background-color: #aaa;
+}
+
+.navbar-header {
+	height: 74px;
+	border: 2px solid #111;
+}
+
+.navbar-default .navbar-toggle {
+	border: 2px solid #111;
+}
+
+.navbar-toggle {
+	margin-top: 17px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #111;
+}
+
+#nav-list a {
+	background-color: grey;
+	color: black;
+ 	font-family: 'Lora', serif;
+	font-size: 2em;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Goudy Bookletter 1911",serif;
+	margin-top: -5px;
+	margin-bottom: 20px;
+	color: brown;
+}
+
+h3 {
+	color: black;
+	text-align: center;
+	font-family: "Goudy Bookletter 1911",serif;
+}
+
+#lorem div {
+	font-family: Helvetica, serif;
+	background-color: grey;
+}
+
+.col-md-4, .col-sm-6, .col-xs-12, .col-sm-12 {
+	background-color: grey;
+	font-family: Brush Script MT;
+	margin-bottom: 20px;
+}
+
+
+@media (min-width: 768px) {
+	.container-fluid {
+		border: 2px solid #111;
+	}
+
+	.navbar-brand {
+		margin-top: 3px;
+	}
+
+	.navbar-header {
+		height: 74px;
+		border: 0px;
+	}
+
+	#collapsable-nav {
+		border: 0px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#first {
+		margin-left: -5px;
+		margin-right: 10px;
+	}
+	#second {
+		margin-right: -5px;
+	}
+	#third {
+		margin-left: -5px;
+		margin-right: -5px;
+		width: 730px;
+	}
+}
+
+@media (min-width: 992px) {
+	#first {
+	margin-left: -10px;
+	margin-right: 10px;
+	}
+	#second {
+		margin-right: 10px;
+	}
+	#third {
+		margin-right: -10px;
+	}
+}
